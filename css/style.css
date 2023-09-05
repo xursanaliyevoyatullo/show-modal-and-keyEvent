@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Varela', sans-serif;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url('../images/rolce-royce.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    border: 0;
+    background: transparent;
+    font-family: inherit;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.show-btn {
+    background-color: #474b4f;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background 0.5s;
+}
+
+.show-btn:hover {
+    background-color: #3a3d40;
+}
+
+.modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 100;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.close-btn {
+    color: #222;
+    font-size: 2rem;
+}
+
+.modal-title {
+    margin-bottom: 1.5rem;
+}
+
+overlay .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+
+
+
+
+
+/* AMALIYOT 2 */
+/* body {
+    font-family: 'Varela', sans-serif;
+    background-color: #e1e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.key {
+    border: 1px solid #999;
+    background-color: #eee;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    flex-direction: column;
+    margin: 1rem;
+    min-width: 150px;
+    position: relative;
+}
+.key small {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #555;
+    font-size: 1.4rem;
+} */
+
+
+
+
+
+/* AMALIYOT 3 */
